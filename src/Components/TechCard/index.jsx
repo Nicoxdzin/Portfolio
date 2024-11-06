@@ -13,7 +13,7 @@ export default function TechCard({techName, techImgUrl}) {
       </div>
       <div className="flex flex-col items-center pb-10">
         <img className="w-24 h-24 mb-3" src={ techImgUrl } alt={ techName } />
-        <h5 className="mb-1 text-lg font-medium text-gray-900 dark:text-white">{ techName }</h5>
+        <h5 className="mb-1 text-lg font-medium text-gray-500">{ techName }</h5>
       </div>
     </div>
   );

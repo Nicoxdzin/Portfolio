@@ -10,7 +10,7 @@ export default function Technologies() {
 
     console.log(reactLogo)
     return (
-        <section className=" bg-cover shadow-md grid justify-items-center sm:grid-cols-3 lg:grid-cols-4 p-5">
+        <section className=" bg-cover shadow-md grid justify-items-center sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-5 p-5">
             <TechCard
                 techName="React"
                 techImgUrl={reactLogo}
