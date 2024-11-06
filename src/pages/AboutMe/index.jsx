@@ -5,7 +5,7 @@ import Me from '../../assets/sticker.png'
 
 export default function AboutMe() {
     return (
-        <section className="min-h-screen items-center bg-cover grid sm:grid-cols-1 lg:grid-cols-2">
+        <section className="min-h-screen items-center bg-cover grid sm:grid-cols-1 lg:grid-cols-2 m-5">
             <div className="flex flex-col justify-center items-center">
                 <div className="w-3/4">
                     <span className="font-rubik text-5xl">FULLSTACK DEVELOPER</span>
