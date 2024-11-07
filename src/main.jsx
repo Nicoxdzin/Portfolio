@@ -6,6 +6,8 @@ import {
 } from "react-router-dom";
 import { Home } from "./pages/Home";
 import './index.css'
+import { Analytics } from "@vercel/analytics/react
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 const router = createBrowserRouter([
   {
@@ -19,5 +21,9 @@ const router = createBrowserRouter([
 ]);
 
 createRoot(document.getElementById("root")).render(
+  <>
+  <SpeedInsights/>
+  <Analytics/>
   <RouterProvider router={router} />
+  </>
 );
